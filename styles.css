@@ -20,10 +20,14 @@ nav.top-nav {
 nav.top-nav ul {
     display: flex;
     gap: 24px;
+    padding-top: 6px;
+    padding-right: 2%;
 }
 
 nav.top-nav h1 {
     margin-right: auto;
+    padding-top: 6px;
+    padding-left: 1%;
 }
 
 section.main {
@@ -32,6 +36,9 @@ section.main {
     flex-direction: column;
     background-color: #1f2937;
     color: white;
+    font-family: 'Inter', sans-serif;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
 section.main h2 {
@@ -47,6 +54,7 @@ section.main p {
 }
 
 section.main button {
+    margin-top: 2%;
     width: fit-content;
 }
 
@@ -58,4 +66,18 @@ section.main div {
 section.main div img{
     width: 450px;
     height: auto;
+}
+
+section.info {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+section.info h3 {
+    margin-top: 3%;
+    color: #1f2939;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
 }
