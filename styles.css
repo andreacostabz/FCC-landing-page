@@ -106,3 +106,18 @@ section div.card img {
     border-radius: 5%;
     border: 2px solid #3882f6;
 }
+
+section.hero-container {
+    height: 25vh;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.hero-container p {
+    width: 75%;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
