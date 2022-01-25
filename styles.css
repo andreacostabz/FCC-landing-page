@@ -153,3 +153,12 @@ section.action-container button {
     padding: 6px;
     border-radius: 5%;
 }
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 10vh;
+}
