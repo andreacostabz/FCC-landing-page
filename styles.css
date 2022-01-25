@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+nav.top-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav.top-nav ul {
+    display: flex;
+    gap: 24px;
+}
+
+nav.top-nav h1 {
+    margin-right: auto;
+}
