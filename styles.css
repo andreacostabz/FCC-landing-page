@@ -56,6 +56,7 @@ section.main p {
 section.main button {
     margin-top: 2%;
     width: fit-content;
+    background-color: #3882f6;
 }
 
 section.main div {
