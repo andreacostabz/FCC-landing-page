@@ -55,8 +55,10 @@ section.main p {
 
 section.main button {
     margin-top: 2%;
-    width: fit-content;
+    width: 100px;
+    border-radius: 5%;
     background-color: #3882f6;
+    padding: 6px;
 }
 
 section.main div {
@@ -120,4 +122,34 @@ section.hero-container p {
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
+}
+
+section.action-container {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+div.call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    width: 75%;
+    height: 60%;
+    border-radius: 2%;
+    gap: 10px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+section.action-container button {
+    background-color: transparent;
+    width: 150px;
+    padding: 6px;
+    border-radius: 5%;
 }
