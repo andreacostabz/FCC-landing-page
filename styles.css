@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -11,6 +13,8 @@ body {
 nav.top-nav {
     display: flex;
     justify-content: flex-end;
+    background-color: #1f2937;
+    color: white;
 }
 
 nav.top-nav ul {
@@ -20,4 +24,38 @@ nav.top-nav ul {
 
 nav.top-nav h1 {
     margin-right: auto;
+}
+
+section.main {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+}
+
+section.main h2 {
+    padding-top: 10%;
+    margin-bottom: 3%;
+    width: fit-content;
+}
+
+section.main p {
+    height: fit-content;
+    width: 38%;
+    flex-wrap: wrap;
+}
+
+section.main button {
+    width: fit-content;
+}
+
+section.main div {
+    align-self: flex-end;
+    margin-top: -210px;
+}
+
+section.main div img{
+    width: 450px;
+    height: auto;
 }
